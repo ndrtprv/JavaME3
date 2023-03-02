@@ -3,6 +3,7 @@ package com.example.myapplication;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ExpandableListView;
 import android.widget.SimpleExpandableListAdapter;
@@ -13,6 +14,7 @@ public class MainActivity extends Activity
         implements ExpandableListView.OnChildClickListener {
 
     private ArrayList<Group> groups = new ArrayList<>();
+    final String TAG = "States";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -105,5 +107,10 @@ public class MainActivity extends Activity
             res.add(tempList);
         }
         return res;
+    }
+
+    public void onContentChanged() {
+        super.onContentChanged();
+        Log.i(TAG, "MainActivity: onContentChanged()");
     }
 }
