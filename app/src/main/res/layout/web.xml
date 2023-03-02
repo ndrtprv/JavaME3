@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8CFFDE"
+    android:orientation="vertical"
+    tools:context=".WebActivity">
+
+    <EditText
+        android:id="@+id/enterLink"
+        android:layout_width="409dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="2dp"
+        android:ems="10"
+        android:hint="@string/instance1"
+        android:inputType="textWebEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="261dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/site"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterLink" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

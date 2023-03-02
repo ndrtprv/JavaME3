@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">JavaME3</string>
+    <string name="instance">for instance: 12.02579,45.893214</string>
+    <string name="find_target">Find target using coords</string>
+    <string name="site">Go to site</string>
+    <string name="instance1">for instance: www.google.com</string>
+    <string name="instance2">for instance: +380(66)8202729</string>
+    <string name="find_phone_number">Find phone number</string>
+</resources>
