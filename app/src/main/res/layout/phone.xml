@@ -29,7 +29,6 @@
         android:layout_marginEnd="46dp"
         android:text="@string/find_phone_number"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/enterPhoneNumber" />
 
